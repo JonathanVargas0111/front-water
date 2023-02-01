@@ -1,0 +1,17 @@
+.list-services{
+    text-align: center;
+}
+.list-services h2{
+    font-size: 50px;
+    padding: 20px 0;
+}
+.list-services div{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    /*grid-template-columns: repeat(auto-fit,minmax(250px, 1fr)); */
+    grid-auto-rows: minmax(200px , auto);
+    gap:1rem;
+    padding: 1rem;
+    grid-auto-flow: dense;
+}
